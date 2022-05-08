@@ -1,0 +1,202 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ZetaHub = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Logo = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local DhmLock = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local FakeAnim = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local DhmGuiPrivate = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Keybind = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+MainFrame.Position = UDim2.new(0.238999993, 0, 0.270000011, 0)
+MainFrame.Size = UDim2.new(0, 680, 0, 305)
+
+UICorner.Parent = MainFrame
+
+ZetaHub.Name = "ZetaHub"
+ZetaHub.Parent = MainFrame
+ZetaHub.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+ZetaHub.Size = UDim2.new(0, 200, 0, 55)
+ZetaHub.Font = Enum.Font.SourceSans
+ZetaHub.Text = "ZetaHub"
+ZetaHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZetaHub.TextSize = 39.000
+
+UICorner_2.Parent = ZetaHub
+
+Logo.Name = "Logo"
+Logo.Parent = MainFrame
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.Position = UDim2.new(0.294439733, 0, 0, 0)
+Logo.Size = UDim2.new(0, 52, 0, 55)
+Logo.Image = "http://www.roblox.com/asset/?id=9012505982"
+
+UICorner_3.Parent = Logo
+
+DhmLock.Name = "Dhm Lock"
+DhmLock.Parent = MainFrame
+DhmLock.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+DhmLock.Position = UDim2.new(0, 0, 0.293040305, 0)
+DhmLock.Size = UDim2.new(0, 200, 0, 50)
+DhmLock.Font = Enum.Font.SourceSans
+DhmLock.Text = "Dhm Lock"
+DhmLock.TextColor3 = Color3.fromRGB(0, 0, 0)
+DhmLock.TextSize = 43.000
+DhmLock.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Hyotinhofofinho/s1mple/main/LIXO"))()
+end)
+
+UICorner_4.Parent = DhmLock
+
+FakeAnim.Name = "FakeAnim"
+FakeAnim.Parent = MainFrame
+FakeAnim.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+FakeAnim.Position = UDim2.new(0.685616434, 0, 0.293040305, 0)
+FakeAnim.Size = UDim2.new(0, 200, 0, 50)
+FakeAnim.Font = Enum.Font.SourceSans
+FakeAnim.Text = "Fake Zomb Anim"
+FakeAnim.TextColor3 = Color3.fromRGB(0, 0, 0)
+FakeAnim.TextSize = 29.000
+FakeAnim.MouseButton1Down:connect(function()
+	while true do
+		local Animate = game.Players.LocalPlayer.Character.Animate
+		Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+		Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+		Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+		Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+		Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+		Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+		Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+		game.Players.LocalPlayer.Character.Humanoid.Jump = false
+		wait(1)
+	end
+end)
+
+UICorner_5.Parent = FakeAnim
+
+DhmGuiPrivate.Name = "Dhm Gui (Private)"
+DhmGuiPrivate.Parent = MainFrame
+DhmGuiPrivate.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+DhmGuiPrivate.Position = UDim2.new(0.342808217, 0, 0.293040305, 0)
+DhmGuiPrivate.Size = UDim2.new(0, 200, 0, 50)
+DhmGuiPrivate.Font = Enum.Font.SourceSans
+DhmGuiPrivate.Text = "Dhm Gui (private)"
+DhmGuiPrivate.TextColor3 = Color3.fromRGB(0, 0, 0)
+DhmGuiPrivate.TextSize = 32.000
+DhmGuiPrivate.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/weremu/open-source-scripts/main/PublicReleaseSnack.lua"))()
+end)
+
+UICorner_6.Parent = DhmGuiPrivate
+
+TextButton.Parent = MainFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextButton.Position = UDim2.new(0.342808217, 0, 0.560439587, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_7.Parent = TextButton
+
+TextButton_2.Parent = MainFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextButton_2.Position = UDim2.new(0.684423089, 0, 0.560439587, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_8.Parent = TextButton_2
+
+TextButton_3.Parent = MainFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextButton_3.Position = UDim2.new(0.00119331479, 0, 0.560439587, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_9.Parent = TextButton_3
+
+TextButton_4.Parent = MainFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextButton_4.Position = UDim2.new(0.344361007, 0, 0.816849828, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+UICorner_10.Parent = TextButton_4
+
+TextButton_5.Parent = MainFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextButton_5.Position = UDim2.new(0.684423089, 0, 0.816849828, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+UICorner_11.Parent = TextButton_5
+
+TextButton_6.Parent = MainFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextButton_6.Position = UDim2.new(-0.000359535217, 0, 0.816849828, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+UICorner_12.Parent = TextButton_6
+
+Keybind.Name = "Keybind"
+Keybind.Parent = MainFrame
+Keybind.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+Keybind.BackgroundTransparency = 1.000
+Keybind.Position = UDim2.new(0.370588213, 0, 0, 0)
+Keybind.Size = UDim2.new(0, 139, 0, 50)
+Keybind.Font = Enum.Font.SourceSans
+Keybind.Text = "Keybind is V"
+Keybind.TextColor3 = Color3.fromRGB(0, 0, 0)
+Keybind.TextSize = 32.000
+
+-- Scripts:
+
+local function GJJWSWT_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local HotKey = Enum.KeyCode.V-- Key to open Gui --
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(Key)
+		if Key.KeyCode == HotKey then
+			script.Parent.Visible = not script.Parent.Visible
+		end
+	end)
+end
+coroutine.wrap(GJJWSWT_fake_script)()
